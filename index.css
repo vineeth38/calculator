@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(240, 235, 235);
+}
+.whole{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 2px;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 8px black;
+    background-color: rgb(233, 230, 230);
+}
+    
+    
+#num1,#num2{
+    border-radius: 4px;
+    border: none;
+    width: 17vw;
+    height: 5vh;
+    font-size: large;
+}
+#num1:focus,#num2:focus{
+    outline: 4px solid rgb(175, 218, 238);
+}
+    
+#operator{
+    border-radius: 4px;
+    border: none;
+    width: 15vw;
+    height: 4vh;
+    font-size: medium;
+}
+.btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1vw;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.res{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10vh;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    background-color:blanchedalmond;
+}
